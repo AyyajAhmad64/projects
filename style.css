@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Borel&family=Cormorant+Upright&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing Script&family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+body{
+    background-color: rgb(25, 24, 24);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-attachment: fixed;
+}
+.header{
+    text-align: center;
+    font-family: "Black Ops One";
+    font-size: 3em;
+    color: aliceblue;
+}
+.container{
+    background-attachment: fixed;
+    padding: 5px;
+    max-width: 22em;
+    border: solid #ffffff6f;
+    border-radius: 2%;
+}
+.screen{
+    /* display: flex; */
+    padding: 0.1em 0.3em 0.1em 0.3em;
+    cursor: default;
+    /* width: 100%; */
+    background-color: #5d5a5a6f;
+    height: auto;
+    margin: 0.2em 0.2em 0.2em 0.2em;
+    font-family: "Black Ops One";
+    font-size: 3em;
+    color: #fff;
+    text-align: end;
+    overflow-x:hidden;
+}
+.screen:active{
+    border: solid #ffffff6f;;
+}
+.buttons{
+    background-attachment: fixed;
+    margin: 1em 0.4em 0.4em 0.4em;
+}
+button{
+    width: 1.6em;
+    height: 1.6em;
+    font-size: 3em;
+    border: none;
+    border-radius: 20%;
+    margin: 0.04em;
+    font-family: "Black Ops One";
+}
+#clear{
+    display: block;
+    width: 100%;
+    background-color: #f06d2c;
+    height: auto;
+    margin: 0.2em 0.01em 0.01em 0.01em;
+    border-radius: 20px;
+    font-size: 3em;
+    text-align: center;
+    font-family: "Black Ops One";
+    cursor: default;
+}
+#equals {
+    background-color: rgb(252, 20, 27);
+}
+button:hover {
+    background-color: rgb(145, 141, 141);
+}
+button:active {
+    background-color: rgb(192, 190, 190);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+#equals:hover {
+    background-color: rgba(226, 23, 23, 0.953);
+}
+#clear:hover {
+    background-color: rgb(255, 213, 61);
+    color: black;
+}
+
